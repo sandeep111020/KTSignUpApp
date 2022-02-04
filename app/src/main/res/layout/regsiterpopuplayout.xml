@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="600dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edttxt_empid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:drawableStart="@drawable/person_24px__1_"
+            android:drawableLeft="@drawable/person_24px__1_"
+            android:drawablePadding="2dp"
+            android:hint="Please enter Email Id"
+            android:inputType="textEmailAddress" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginLeft="15dp"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/icon_ionic_ios_lock"
+            android:drawablePadding="2dp"
+            android:drawableStart="@drawable/icon_ionic_ios_lock"
+            android:hint="  Password"
+            android:id="@+id/edttxt_password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginLeft="15dp"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/icon_ionic_ios_lock"
+            android:drawablePadding="2dp"
+            android:drawableStart="@drawable/icon_ionic_ios_lock"
+            android:hint="  Password"
+            android:id="@+id/edttxt_password_check"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:id="@+id/errortext"
+            android:layout_marginTop="25dp"
+            android:textColor="#D31E4B"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Create An Account"
+        android:id="@+id/loginbutton"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="100dp"
+
+        android:background="@drawable/rounded2"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
